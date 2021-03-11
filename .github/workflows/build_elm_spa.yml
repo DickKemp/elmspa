@@ -44,3 +44,5 @@ jobs:
         elm-version: 0.19.1
     - run: |
            elm make src/Main.elm --optimize --output=public/dist/elm.compiled.js
+           find . -print
+
